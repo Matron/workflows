@@ -8,6 +8,7 @@ jobs:
   test_pull_request:
     runs-on: ubuntu-latest
     steps:
+      - uses: ./ 
       - uses: actions/setup-node@v1
       - uses: actions/setup-node@v1
         with:
